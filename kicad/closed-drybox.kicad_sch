@@ -894,6 +894,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AMS1117-5.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-5.0"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-5.0_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-5.0_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:AO3400A"
 			(pin_names
 				(offset 0)
@@ -1443,6 +1580,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1737,6 +1999,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 142.24) (xy 49.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a87a13f-1400-48d6-b560-03cbce52fa74")
+	)
+	(wire
+		(pts
 			(xy 115.57 86.36) (xy 115.57 88.9)
 		)
 		(stroke
@@ -1797,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 115.57) (xy 22.86 115.57)
+			(xy 31.75 114.3) (xy 33.02 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 123.19) (xy 30.48 124.46)
+			(xy 40.64 121.92) (xy 40.64 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2027,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 149.86) (xy 40.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c819a679-983c-4bd9-bbd8-eccd2dfa2776")
+	)
+	(wire
+		(pts
 			(xy 93.98 63.5) (xy 115.57 63.5)
 		)
 		(stroke
@@ -2054,6 +2336,16 @@
 			(type default)
 		)
 		(uuid "cc0b9d1e-08bf-4c22-aa0b-1ad928b39d20")
+	)
+	(wire
+		(pts
+			(xy 31.75 142.24) (xy 33.02 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea5f224-12ee-4809-b72f-7e613f847beb")
 	)
 	(wire
 		(pts
@@ -2117,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 115.57) (xy 39.37 115.57)
+			(xy 48.26 114.3) (xy 49.53 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2573,6 +2865,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 31.75 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43e3fe37-3699-47e9-95f3-2848a15777dd")
+		(property "Reference" "#PWR010"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 27.94 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90aed0eb-259e-43a7-b9f8-0aedc3f6befc")
+		)
+		(instances
+			(project ""
+				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CustomSymbols:Power_Jack")
 		(at 24.13 31.75 0)
 		(unit 1)
@@ -2843,7 +3202,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 115.57 270)
+		(at 49.53 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2852,7 +3211,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f28370f-8bba-49b0-a45c-ed9141ca78bc")
 		(property "Reference" "#PWR09"
-			(at 35.56 115.57 0)
+			(at 45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +3220,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 43.18 115.5699 90)
+			(at 53.34 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +3229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 115.57 0)
+			(at 49.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 115.57 0)
+			(at 49.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 115.57 0)
+			(at 49.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,6 +3409,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ea1d914-3832-4036-a22c-47bcd10b9b42")
+		(property "Reference" "#PWR011"
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2438f2f-3acd-4ae8-8536-24a1a55fbed9")
+		)
+		(instances
+			(project ""
+				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Heater")
 		(at 50.8 69.85 0)
 		(unit 1)
@@ -3121,16 +3547,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 21.59 115.57 90)
+		(at 31.75 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7cf76290-2a9d-4606-940b-d464036a7c71")
 		(property "Reference" "#PWR08"
-			(at 25.4 115.57 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3564,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 17.78 115.5699 90)
+			(at 27.94 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 115.57 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 115.57 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 21.59 115.57 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3894,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 124.46 0)
+		(at 40.64 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3478,7 +3903,7 @@
 		(fields_autoplaced yes)
 		(uuid "9daf699b-63d1-42cc-9dfb-62d77b06840b")
 		(property "Reference" "#PWR07"
-			(at 30.48 130.81 0)
+			(at 40.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 129.54 0)
+			(at 40.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 124.46 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 124.46 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 124.46 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,6 +3953,72 @@
 			(project ""
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a50158c7-22d5-45f9-b066-2ce78fb1e6d8")
+		(property "Reference" "#PWR012"
+			(at 40.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47dba714-d020-448b-9a91-5f9d8730489c")
+		)
+		(instances
+			(project ""
+				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3603,6 +4094,77 @@
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-5.0")
+		(at 40.64 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee72495-98a0-48de-9bf0-d7eadeb3af9e")
+		(property "Reference" "U2"
+			(at 40.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-5.0"
+			(at 40.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 40.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+			(at 40.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "395366c2-5202-4a56-bd59-aabd173859aa")
+		)
+		(pin "1"
+			(uuid "e7ee16fb-6b80-4a15-ae7c-c42dfdc2c039")
+		)
+		(pin "3"
+			(uuid "2c45ddbc-67dc-410a-9efc-e070db382e8f")
+		)
+		(instances
+			(project ""
+				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3760,7 +4322,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 30.48 115.57 0)
+		(at 40.64 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3769,7 +4331,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7e6189b-d320-40f2-9875-33a158f11435")
 		(property "Reference" "U1"
-			(at 30.48 109.22 0)
+			(at 40.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +4339,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 30.48 111.76 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +4347,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 30.48 110.49 0)
+			(at 40.64 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +4356,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 33.02 121.92 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +4365,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 30.48 115.57 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
