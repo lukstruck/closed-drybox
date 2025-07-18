@@ -447,7 +447,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CustomLibary"
+    ]
   },
   "meta": {
     "filename": "closed-drybox.kicad_pro",
