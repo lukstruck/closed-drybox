@@ -2517,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0601fe4a-d9c8-4089-8279-3c3c153902b2")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 74.93 68.5799 0)
 			(effects
 				(font
@@ -2571,7 +2571,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2627,6 +2627,15 @@
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 152.4 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,6 +2716,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 153.67 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a766aac1-77cd-47d9-bba0-35e7a6047984")
 		)
@@ -2773,6 +2791,15 @@
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 			(at 171.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 177.8 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,6 +3417,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20917"
+			(at 33.02 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0a167818-8c60-4818-935b-9332ed54fe74")
 		)
@@ -3485,7 +3521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ade43d8-49ef-4b16-85cf-ccd1573edf71")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 53.34 68.5799 0)
 			(effects
 				(font
@@ -3539,7 +3575,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f49c9d5-224f-4724-8f3b-c658fc9e12a7")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 118.11 68.5799 0)
 			(effects
 				(font
@@ -3675,7 +3711,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3760,7 +3796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e6afd80-641c-4511-a1fd-0e2f4aa46fa1")
-		(property "Reference" "Q?"
+		(property "Reference" "Q7"
 			(at 119.38 80.0099 0)
 			(effects
 				(font
@@ -3808,6 +3844,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20917"
+			(at 119.38 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ef598bdd-d62c-4203-b167-c867557c91f0")
 		)
@@ -3820,7 +3865,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "Q?")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -4033,7 +4078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad3dc6e1-1cc1-4a86-aa92-97a8304ca052")
-		(property "Reference" "Q?"
+		(property "Reference" "Q5"
 			(at 76.2 80.0099 0)
 			(effects
 				(font
@@ -4081,6 +4126,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20917"
+			(at 76.2 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "09c93b08-25ec-4e6b-967b-b099ce752b9a")
 		)
@@ -4093,7 +4147,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "Q?")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -4152,6 +4206,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6187"
+			(at 40.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "395366c2-5202-4a56-bd59-aabd173859aa")
 		)
@@ -4179,7 +4242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb64b3ab-5c68-4c71-b52e-b072ff99edc0")
-		(property "Reference" "Q?"
+		(property "Reference" "Q6"
 			(at 97.79 80.0099 0)
 			(effects
 				(font
@@ -4227,6 +4290,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20917"
+			(at 97.79 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a6c16759-cc76-4689-9939-9346c3954794")
 		)
@@ -4239,7 +4311,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "Q?")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc398d73-94d3-4008-95c6-54baabddd98f")
-		(property "Reference" "Q?"
+		(property "Reference" "Q4"
 			(at 54.61 80.0099 0)
 			(effects
 				(font
@@ -4302,6 +4374,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20917"
+			(at 54.61 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f05d20b8-9737-4194-a0ec-b3126d096f7a")
 		)
@@ -4314,7 +4395,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "Q?")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4373,6 +4454,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6186"
+			(at 40.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a470f3e-6cb1-45cd-abb0-90f731fa81b8")
 		)
@@ -4401,7 +4491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f017a4eb-0e00-423c-8ae7-c0503349d8d7")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 96.52 68.5799 0)
 			(effects
 				(font
@@ -4455,7 +4545,7 @@
 		(instances
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4577,6 +4667,15 @@
 		)
 		(property "Description" "Fan"
 			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 179.07 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
