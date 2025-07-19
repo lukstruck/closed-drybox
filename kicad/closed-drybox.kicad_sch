@@ -1669,7 +1669,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819"
+		(symbol "Diode:1N5819WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1688,7 +1688,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5819"
+			(property "Value" "1N5819WS"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1696,7 +1696,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1705,7 +1705,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1714,7 +1714,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1732,7 +1732,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1741,7 +1741,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5819_0_1"
+			(symbol "1N5819WS_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1779,7 +1779,7 @@
 					)
 				)
 			)
-			(symbol "1N5819_1_1"
+			(symbol "1N5819WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3002,7 +3002,7 @@
 	)
 	(rectangle
 		(start 137.16 19.05)
-		(end 191.77 83.82)
+		(end 215.9 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -3135,6 +3135,12 @@
 		(uuid "146daa55-259f-4423-9050-d9d30d4ea6b2")
 	)
 	(junction
+		(at 151.13 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17f402af-e5e9-4797-aed2-24701baa0c84")
+	)
+	(junction
 		(at 31.75 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3189,10 +3195,22 @@
 		(uuid "6393f422-349d-4c9b-9a58-edb542e7c43d")
 	)
 	(junction
+		(at 187.96 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7343ab28-3878-4f9e-81d1-134057c31694")
+	)
+	(junction
 		(at 93.98 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74caaf3f-5f9f-4f79-8b02-7aa5df427b7a")
+	)
+	(junction
+		(at 187.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cd014aa-e3a6-415f-b298-e54605643e77")
 	)
 	(junction
 		(at 29.21 105.41)
@@ -3205,6 +3223,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4cd5932-7516-4321-944e-e186d24ef5b5")
+	)
+	(junction
+		(at 151.13 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be399fc5-495e-4049-82e8-cd1abb85f8e0")
 	)
 	(junction
 		(at 50.8 80.01)
@@ -3265,6 +3289,16 @@
 	(no_connect
 		(at 175.26 133.35)
 		(uuid "d54ead11-d501-4aa7-8cda-dd7b96dc8820")
+	)
+	(wire
+		(pts
+			(xy 199.39 38.1) (xy 199.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b4fd47-706e-444e-8809-96a15e7f103f")
 	)
 	(wire
 		(pts
@@ -3368,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 55.88) (xy 176.53 58.42)
+			(xy 187.96 45.72) (xy 187.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 68.58) (xy 176.53 73.66)
+			(xy 187.96 68.58) (xy 187.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3445,6 +3479,16 @@
 			(type default)
 		)
 		(uuid "292f92ef-bdeb-4c71-85eb-5d556ec19773")
+	)
+	(wire
+		(pts
+			(xy 199.39 33.02) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c894ad0-ee7d-4cca-a4bb-6464a982f9a0")
 	)
 	(wire
 		(pts
@@ -3538,6 +3582,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 63.5) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4006bd4f-35b0-460a-b7b3-ab7f2bd3df71")
+	)
+	(wire
+		(pts
+			(xy 161.29 33.02) (xy 151.13 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4730490c-cbce-4d92-98c0-ae80fe54ecef")
+	)
+	(wire
+		(pts
 			(xy 34.29 44.45) (xy 34.29 49.53)
 		)
 		(stroke
@@ -3568,6 +3632,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 45.72) (xy 199.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0c902d-61b4-47cc-984a-18f97b882a23")
+	)
+	(wire
+		(pts
 			(xy 93.98 80.01) (xy 72.39 80.01)
 		)
 		(stroke
@@ -3588,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 176.53 73.66)
+			(xy 163.83 73.66) (xy 187.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3635,16 +3709,6 @@
 			(type default)
 		)
 		(uuid "577edf4a-903c-41d5-93d1-bac3dd772a4a")
-	)
-	(wire
-		(pts
-			(xy 168.91 63.5) (xy 168.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d556f76-0e8e-41fc-9e88-1669e8aeb8c4")
 	)
 	(wire
 		(pts
@@ -3748,16 +3812,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 46.99) (xy 176.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8263ded5-735c-4be7-9c77-5928ce0a589d")
-	)
-	(wire
-		(pts
 			(xy 31.75 29.21) (xy 31.75 39.37)
 		)
 		(stroke
@@ -3765,6 +3819,16 @@
 			(type default)
 		)
 		(uuid "849b472e-217d-4c95-82ce-718e46c5d7d8")
+	)
+	(wire
+		(pts
+			(xy 161.29 36.83) (xy 161.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874c1554-784a-4f57-90c5-dfdeebca4ffc")
 	)
 	(wire
 		(pts
@@ -3878,6 +3942,36 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 48.26) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70781f1-db3a-47e6-9715-d01a32acf348")
+	)
+	(wire
+		(pts
+			(xy 151.13 33.02) (xy 151.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc7b9e3-5244-4289-a763-6609bfb4f99b")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac65433a-c9e4-4066-9ff4-bf6be99b013c")
+	)
+	(wire
+		(pts
 			(xy 29.21 105.41) (xy 29.21 107.95)
 		)
 		(stroke
@@ -3915,6 +4009,16 @@
 			(type default)
 		)
 		(uuid "ba7d5e8d-5f11-40b6-8f6b-d5b4c3275aa0")
+	)
+	(wire
+		(pts
+			(xy 161.29 44.45) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae58ffa-044f-4e2b-b351-f3f4b41b8995")
 	)
 	(wire
 		(pts
@@ -3968,7 +4072,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 34.29) (xy 176.53 27.94)
+			(xy 161.29 48.26) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b4556a-e4e9-4eb5-88e3-1e8e2ce3fc74")
+	)
+	(wire
+		(pts
+			(xy 187.96 33.02) (xy 187.96 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4048,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 27.94) (xy 176.53 27.94)
+			(xy 163.83 27.94) (xy 187.96 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4108,7 +4222,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 27.94) (xy 151.13 34.29)
+			(xy 180.34 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec841556-ef09-41a6-9b1b-af4942f4870c")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4158,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 55.88) (xy 151.13 58.42)
+			(xy 151.13 48.26) (xy 151.13 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4207,7 +4331,7 @@
 		(uuid "0cfcfdb1-e12f-451a-a7dc-17908bf740bf")
 	)
 	(label "FAN2"
-		(at 168.91 58.42 180)
+		(at 176.53 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4678,7 +4802,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 173.99 63.5 0)
+		(at 185.42 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4687,7 +4811,7 @@
 		(fields_autoplaced yes)
 		(uuid "22699b6e-da3d-4e3f-9cb0-198d949efcb0")
 		(property "Reference" "Q3"
-			(at 180.34 62.2299 0)
+			(at 191.77 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4820,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 180.34 64.7699 0)
+			(at 191.77 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4829,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 179.07 65.405 0)
+			(at 190.5 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4840,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 179.07 67.31 0)
+			(at 190.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4850,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 173.99 63.5 0)
+			(at 185.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4859,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 180.34 62.2299 0)
+			(at 191.77 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,6 +4880,76 @@
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 199.39 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d616256-f28d-4594-8215-9ddee5d49a4d")
+		(property "Reference" "D4"
+			(at 201.93 40.3224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 201.93 42.8624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 194.945 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aaccdf6-a14f-4391-a00e-718145fea185")
+		)
+		(pin "2"
+			(uuid "45b92a08-5e4e-4861-a576-c22ac73ccb45")
+		)
+		(instances
+			(project ""
+				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6341,76 +6535,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819")
-		(at 151.13 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa02f8bc-efdd-451e-9d76-27df6e7b4788")
-		(property "Reference" "D1"
-			(at 153.67 51.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 153.67 53.6574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 155.575 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 151.13 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 151.13 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "887da597-01fd-407a-a9d4-bd474eaeed34")
-		)
-		(pin "2"
-			(uuid "5904e14e-54b0-48c9-a608-88043c943a84")
-		)
-		(instances
-			(project ""
-				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 69.85 97.79 0)
 		(unit 1)
@@ -6489,6 +6613,76 @@
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 161.29 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b099dce1-12fe-4d8e-9695-d3e3c23c9bfb")
+		(property "Reference" "D3"
+			(at 163.83 39.0524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 163.83 41.5924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 156.845 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d1f31d9-4b32-476d-a00b-f1623a15f125")
+		)
+		(pin "1"
+			(uuid "954a517e-d750-4878-8430-04033c19b6c3")
+		)
+		(instances
+			(project ""
+				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6807,76 +7001,6 @@
 			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 176.53 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d337a5d6-ef5e-4037-b26f-fbb215eff1f4")
-		(property "Reference" "D2"
-			(at 179.07 51.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 179.07 53.6574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 180.975 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 176.53 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 176.53 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96b2427f-1286-4e9a-bf4a-49886df6d321")
-		)
-		(pin "2"
-			(uuid "3aeec3f5-10ab-4941-b7a1-f5ecf2ef271a")
-		)
-		(instances
-			(project "closed-drybox"
-				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7382,7 +7506,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan")
-		(at 176.53 41.91 0)
+		(at 187.96 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7391,7 +7515,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe182937-5861-4519-a8a5-512a3d64a231")
 		(property "Reference" "M2"
-			(at 181.61 40.6399 0)
+			(at 193.04 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7524,7 @@
 			)
 		)
 		(property "Value" "Fan"
-			(at 181.61 43.1799 0)
+			(at 193.04 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7533,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
-			(at 176.53 41.656 0)
+			(at 187.96 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 41.656 0)
+			(at 187.96 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7551,7 @@
 			)
 		)
 		(property "Description" "Fan"
-			(at 176.53 41.91 0)
+			(at 187.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7560,7 @@
 			)
 		)
 		(property "LCSC" "C158012"
-			(at 181.61 40.6399 0)
+			(at 193.04 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
