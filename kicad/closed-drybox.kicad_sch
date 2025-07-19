@@ -2764,7 +2764,7 @@
 	)
 	(rectangle
 		(start 115.57 106.68)
-		(end 190.5 147.32)
+		(end 200.66 146.05)
 		(stroke
 			(width 0)
 			(type default)
@@ -2968,7 +2968,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 120.65) (xy 179.07 120.65)
+			(xy 176.53 120.65) (xy 180.34 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3015,16 +3015,6 @@
 			(type default)
 		)
 		(uuid "0fec176f-8314-44bf-98b8-d77d47f85c12")
-	)
-	(wire
-		(pts
-			(xy 120.65 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15099f4d-e704-4cac-90e7-627c49788f71")
 	)
 	(wire
 		(pts
@@ -3348,6 +3338,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 135.89) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec4ea17-a6f9-4989-95a6-a2f2850943fb")
+	)
+	(wire
+		(pts
 			(xy 109.22 46.99) (xy 55.88 46.99)
 		)
 		(stroke
@@ -3378,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 124.46) (xy 179.07 124.46)
+			(xy 176.53 124.46) (xy 189.23 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3438,16 +3438,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 120.65) (xy 127 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5be6d2-d844-4560-8dde-4f8e25a0906c")
-	)
-	(wire
-		(pts
 			(xy 50.8 63.5) (xy 29.21 63.5)
 		)
 		(stroke
@@ -3455,16 +3445,6 @@
 			(type default)
 		)
 		(uuid "90388fe7-fb6d-4cc8-b058-8250a0662e16")
-	)
-	(wire
-		(pts
-			(xy 120.65 139.7) (xy 127 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93044a8e-9bb5-49f8-bc5c-855fc594c3ac")
 	)
 	(wire
 		(pts
@@ -3618,16 +3598,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 124.46) (xy 127 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf979119-c7de-44c8-b35f-690e9c444432")
-	)
-	(wire
-		(pts
 			(xy 124.46 25.4) (xy 124.46 30.48)
 		)
 		(stroke
@@ -3645,16 +3615,6 @@
 			(type default)
 		)
 		(uuid "c0e777c5-6080-439f-bbd4-b591894c077c")
-	)
-	(wire
-		(pts
-			(xy 120.65 128.27) (xy 127 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1fd5a39-fda8-44eb-9e08-2b430355ba83")
 	)
 	(wire
 		(pts
@@ -3775,6 +3735,16 @@
 			(type default)
 		)
 		(uuid "e0d36397-54ac-4831-abca-a445da380546")
+	)
+	(wire
+		(pts
+			(xy 176.53 139.7) (xy 180.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ffb280-be77-453c-9c73-8a02a0fa32b9")
 	)
 	(wire
 		(pts
@@ -3917,14 +3887,24 @@
 		(uuid "1ec339b3-363c-4a7c-97f0-18d3a9bf6b72")
 	)
 	(label "HEAT3"
-		(at 120.65 124.46 0)
+		(at 127 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21eeaeb0-f2eb-442a-a60c-183d06d510a8")
+	)
+	(label "Q"
+		(at 176.53 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "21eeaeb0-f2eb-442a-a60c-183d06d510a8")
+		(uuid "36218eca-59f0-49ef-b3c9-e39bda8c026c")
 	)
 	(label "SCL"
 		(at 105.41 39.37 0)
@@ -3945,6 +3925,16 @@
 			(justify left bottom)
 		)
 		(uuid "416c0840-da67-4948-98d6-a10a8e3412a9")
+	)
+	(label "Q"
+		(at 127 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48f8e1a7-e849-4099-ba9c-edb25178b487")
 	)
 	(label "HEAT3"
 		(at 64.77 81.28 180)
@@ -3996,6 +3986,16 @@
 		)
 		(uuid "b2877e5f-e939-4541-8a24-f4f6f66a8705")
 	)
+	(label "Q"
+		(at 127 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8653cb3-11ae-4678-92ce-76e1916868ee")
+	)
 	(label "FAN1"
 		(at 143.51 55.88 180)
 		(effects
@@ -4007,17 +4007,17 @@
 		(uuid "c02ea855-7662-42de-b7af-d8d4740a3c87")
 	)
 	(label "HEAT5"
-		(at 120.65 139.7 0)
+		(at 127 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c0e16d6a-7250-4976-917e-746647511426")
 	)
 	(label "HEAT1"
-		(at 120.65 116.84 0)
+		(at 180.34 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4027,7 +4027,7 @@
 		(uuid "c501a1cd-4512-43b8-ade0-b6ea135ce8f0")
 	)
 	(label "HEAT2"
-		(at 120.65 120.65 0)
+		(at 180.34 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4047,12 +4047,12 @@
 		(uuid "e6bf4b2e-da75-482b-870f-11481c5b0cb0")
 	)
 	(label "HEAT4"
-		(at 120.65 128.27 0)
+		(at 127 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eefc620b-992d-4031-848e-2516b0409fcc")
 	)
@@ -5602,7 +5602,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.07 124.46 270)
+		(at 189.23 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5611,7 +5611,7 @@
 		(fields_autoplaced yes)
 		(uuid "897e098d-9b6a-4083-9937-f1cbdca4ed82")
 		(property "Reference" "#PWR08"
-			(at 175.26 124.46 0)
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5620,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 182.88 124.4599 90)
+			(at 191.77 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 124.46 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 124.46 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 124.46 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 120.65 90)
+		(at 180.34 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5907,7 +5907,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d3326ac-33ab-40c9-834d-8261de135c77")
 		(property "Reference" "#PWR07"
-			(at 185.42 120.65 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,16 +5916,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 120.6499 90)
+			(at 182.88 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 120.65 0)
+			(at 180.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 120.65 0)
+			(at 180.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +5943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 120.65 0)
+			(at 180.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
