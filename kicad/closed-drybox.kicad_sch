@@ -4555,6 +4555,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 74.93 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ce8e3a0-ddb1-4c13-9f89-1a01ebf72f9b")
 		)
@@ -4940,6 +4949,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C191023"
+			(at 201.93 40.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9aaccdf6-a14f-4391-a00e-718145fea185")
 		)
@@ -5242,6 +5260,15 @@
 		)
 		(property "Description" "Power_Jack"
 			(at 24.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720558"
+			(at 24.13 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,6 +5973,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 53.34 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dd34f8f-ad8c-4b42-976d-8625f7dea342")
 		)
@@ -6009,6 +6045,15 @@
 		)
 		(property "Description" "Resistive heater"
 			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 118.11 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,6 +6194,15 @@
 		)
 		(property "Description" "Resistive heater"
 			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 31.75 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,6 +6720,15 @@
 		)
 		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 163.83 39.0524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,6 +7477,15 @@
 		)
 		(property "Description" "Resistive heater"
 			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
+			(at 96.52 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
