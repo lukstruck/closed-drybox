@@ -644,6 +644,34 @@
     [
       "82591c7e-40c7-44fc-90aa-28c612ab8916",
       "power measurement"
+    ],
+    [
+      "1d219fe6-bc63-44d7-97db-56de52b65009",
+      "heater1"
+    ],
+    [
+      "d6c312da-2fd3-41bb-8abb-f867abf702cd",
+      "heater2"
+    ],
+    [
+      "35c344b1-4964-4b72-be4c-fe15a9a01785",
+      "heater3"
+    ],
+    [
+      "d96b2377-b712-43b7-b059-2b3612144cdd",
+      "heater4"
+    ],
+    [
+      "fa44cc0c-94de-4677-8c40-03642583747f",
+      "heater5"
+    ],
+    [
+      "2668133d-2aed-41c2-9473-f2895de6f795",
+      "Fan1"
+    ],
+    [
+      "2234efbe-ebbf-4aab-bbfd-018f77cfe3a5",
+      "Fan2"
     ]
   ],
   "text_variables": {}
