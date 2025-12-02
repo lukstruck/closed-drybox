@@ -2721,14 +2721,6 @@
 		(color 0 0 0 0)
 		(uuid "e1f2627b-2ec4-43e5-b029-de1abbf10072")
 	)
-	(no_connect
-		(at 125.73 137.16)
-		(uuid "14f7533e-d56d-4b20-b33a-f03f201c469d")
-	)
-	(no_connect
-		(at 125.73 133.35)
-		(uuid "38f453a2-0573-4d39-8dbd-bdf09d89c475")
-	)
 	(wire
 		(pts
 			(xy 66.04 48.26) (xy 71.12 48.26)
@@ -3479,6 +3471,26 @@
 		)
 		(uuid "597805d3-a025-4e89-b1a8-5bdd4046d6c4")
 	)
+	(label "GPIO0"
+		(at 232.41 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b107f75-f1d6-4028-a353-46099afb6e68")
+	)
+	(label "GPIO0"
+		(at 125.73 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b67e6b6-5d25-40f9-9f61-3cc14b56d360")
+	)
 	(label "HEAT3"
 		(at 232.41 62.23 0)
 		(effects
@@ -3518,6 +3530,26 @@
 			(justify right bottom)
 		)
 		(uuid "7b00af23-fd92-404b-a51b-3ffd722b60b0")
+	)
+	(label "GPIO1"
+		(at 232.41 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88cf86e3-bff5-4f0c-9fcc-80a27ea1b3cb")
+	)
+	(label "GPIO1"
+		(at 125.73 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a114a7f5-7fa6-4b59-8d6e-a0b6726a2b41")
 	)
 	(label "FAN2"
 		(at 232.41 48.26 0)
@@ -3757,6 +3789,74 @@
 			(project ""
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 227.33 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e1fe744-e20a-42cf-876c-a8cfbd3c03ff")
+		(property "Reference" "J10"
+			(at 227.965 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 227.965 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9671784e-53db-43b1-8e08-eb0cd0a149ad")
+		)
+		(pin "2"
+			(uuid "ff679a6c-6d24-4aaa-a069-ec8a81a35ef4")
+		)
+		(instances
+			(project "closed-drybox"
+				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
+					(reference "J10")
 					(unit 1)
 				)
 			)
