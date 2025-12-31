@@ -9202,6 +9202,7 @@
 		(property "Reference" "J3"
 			(at 0 11.4 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0debeffe-9262-483e-b728-157c041ee256")
 			(effects
 				(font
@@ -16337,6 +16338,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at -24 47.75 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fcd5980d-8d2f-4a17-8527-5bacea9cbca8")
 			(effects
 				(font
