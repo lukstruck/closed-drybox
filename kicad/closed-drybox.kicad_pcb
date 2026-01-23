@@ -1094,7 +1094,7 @@
 			(net 17 "/GPIO0")
 			(pinfunction "GPIO0/A0/D0")
 			(pintype "passive")
-			(uuid "ce14ff30-afa6-4bb1-bda9-155a243390bf")
+			(uuid "aa56ea12-6c72-41eb-9413-495a79fe812e")
 		)
 		(pad "2" smd roundrect
 			(at -8.5 -5.08 90)
@@ -1116,7 +1116,7 @@
 			(net 24 "/TEMP")
 			(pinfunction "GPIO1/A1/D1")
 			(pintype "passive")
-			(uuid "ee6173c4-7597-45cc-aa29-095300d878d0")
+			(uuid "6d2a539c-7eb8-4fab-9e06-99fc2079c30b")
 		)
 		(pad "3" smd roundrect
 			(at -8.5 -2.54 90)
@@ -1138,7 +1138,7 @@
 			(net 16 "/HEAT3")
 			(pinfunction "GPIO2/A2/D2")
 			(pintype "passive")
-			(uuid "03a10dd6-cc2e-4ec4-9fdb-c5b74b7ebf63")
+			(uuid "a27011a6-259d-42bc-ae3a-3ac2d372b58b")
 		)
 		(pad "4" smd roundrect
 			(at -8.5 0 90)
@@ -1160,7 +1160,7 @@
 			(net 18 "/HEAT4")
 			(pinfunction "GPIO21/D3")
 			(pintype "passive")
-			(uuid "7c42d2fd-f40b-4845-95f5-946942992865")
+			(uuid "1926af10-0726-435e-88c3-44ad6d8f27ef")
 		)
 		(pad "5" smd roundrect
 			(at -8.5 2.54 90)
@@ -1182,7 +1182,7 @@
 			(net 20 "/SDA")
 			(pinfunction "GPIO22/D4/SDA")
 			(pintype "passive")
-			(uuid "fd5c6fda-ce41-41ca-88a2-88b1a1b77b64")
+			(uuid "d3331be4-8863-41e9-acc3-0443e4a62584")
 		)
 		(pad "6" smd roundrect
 			(at -8.5 5.08 90)
@@ -1204,7 +1204,7 @@
 			(net 21 "/SCL")
 			(pinfunction "GPIO23/D5/SCL")
 			(pintype "passive")
-			(uuid "16646e48-b6c4-4059-b94b-9b805ed948a8")
+			(uuid "e936a593-37ba-497b-b24d-570ee39c7907")
 		)
 		(pad "7" smd roundrect
 			(at -8.5 7.62 90)
@@ -1226,7 +1226,7 @@
 			(net 19 "/HEAT5")
 			(pinfunction "GPIO16/D6/TX")
 			(pintype "passive")
-			(uuid "25b910d1-d353-41d6-8ff1-db4eaaf47ce5")
+			(uuid "644bd5cf-9cbc-4cd2-849b-8f4e9e3d3193")
 		)
 		(pad "8" thru_hole circle
 			(at 7.575 7.62 270)
@@ -1248,7 +1248,7 @@
 			(pinfunction "GPIO17/D7/RX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "466bbac5-f3d3-4e55-83e3-6f5a484d9077")
+			(uuid "222fdcdc-070f-4dcc-bcea-8ce095e5382e")
 		)
 		(pad "9" thru_hole circle
 			(at 7.575 5.08 270)
@@ -1270,7 +1270,7 @@
 			(pinfunction "GPIO19/D8/SCK")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "37d5d5b2-2379-484c-b4dc-f68c2f7f5e59")
+			(uuid "968cf4b7-1a6f-4015-a7ef-e4fb44d8ae13")
 		)
 		(pad "10" thru_hole circle
 			(at 7.575 2.54 270)
@@ -1292,7 +1292,7 @@
 			(pinfunction "GPIO20/D9/MISO")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "449345af-a575-4e06-8bff-ed6b114eadae")
+			(uuid "28778626-1998-4194-9213-0ef4e4ff7475")
 		)
 		(pad "11" thru_hole circle
 			(at 7.575 0 270)
@@ -1314,7 +1314,7 @@
 			(pinfunction "GPIO18/D10/MOSI")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4a900f99-6665-4303-9585-a06bfd233696")
+			(uuid "da4dea45-f62c-46e0-aa5c-c02973c5b917")
 		)
 		(pad "12" thru_hole circle
 			(at 7.575 -2.54 270)
@@ -1336,7 +1336,7 @@
 			(pinfunction "3V3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8c31fae6-b573-48e6-a57e-9108f32b7366")
+			(uuid "fc4006ed-3900-4e9c-aaec-d121cedbccb5")
 		)
 		(pad "13" thru_hole circle
 			(at 7.575 -5.08 270)
@@ -1358,7 +1358,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b4ac65de-0308-470c-8742-d6e25a10a105")
+			(uuid "7afc0d37-6c4f-49c0-ab99-0022c66a22c2")
 		)
 		(pad "14" thru_hole circle
 			(at 7.575 -7.62 270)
@@ -1380,7 +1380,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "34fd2a6d-3747-4f96-b112-c31b1220c4ba")
+			(uuid "1cc8ce89-cda9-4532-ab7d-7116572ede5b")
 		)
 		(zone
 			(net 0)
@@ -12115,6 +12115,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7cf92d1b-2437-4726-b340-d4c0d9dbae9d")
 			(effects
 				(font
@@ -12788,7 +12789,7 @@
 			(net 8 "Net-(J4-Pin_1)")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "bb796108-4ec6-4b03-a2df-3ccb40747597")
+			(uuid "b4b7ffb6-c6b6-4ca1-9541-d6ad77ce9b2c")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
@@ -16327,6 +16328,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e5706cdc-be28-48a7-a224-f01daae87327")
 			(effects
 				(font
@@ -16685,6 +16687,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2f08eb88-c40f-4e4a-908e-9c4de0a20579")
 			(effects
 				(font
