@@ -1226,7 +1226,7 @@
 			(uuid "007c366c-3c1e-4b9c-9e9d-529e26234732")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/1d219fe6-bc63-44d7-97db-56de52b65009"
 					(reference "TP8")
 					(unit 1)
@@ -1312,7 +1312,7 @@
 			(uuid "6ac7c028-cd8c-4ebf-97f9-218429d29eba")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/1d219fe6-bc63-44d7-97db-56de52b65009"
 					(reference "R5")
 					(unit 1)
@@ -1590,7 +1590,7 @@
 			(uuid "1b1daa59-8d34-469e-8de3-951c8dde252e")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/1d219fe6-bc63-44d7-97db-56de52b65009"
 					(reference "TP3")
 					(unit 1)

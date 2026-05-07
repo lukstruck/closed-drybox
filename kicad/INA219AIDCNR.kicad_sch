@@ -1076,7 +1076,7 @@
 					(unit 1)
 				)
 			)
-			(project "INA219AIDCNR-breakout"
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/82591c7e-40c7-44fc-90aa-28c612ab8916"
 					(reference "R2")
 					(unit 1)
@@ -1227,7 +1227,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/82591c7e-40c7-44fc-90aa-28c612ab8916"
 					(reference "C7")
 					(unit 1)
@@ -1312,7 +1312,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/82591c7e-40c7-44fc-90aa-28c612ab8916"
 					(reference "R3")
 					(unit 1)
@@ -1396,7 +1396,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/82591c7e-40c7-44fc-90aa-28c612ab8916"
 					(reference "R1")
 					(unit 1)
@@ -1462,7 +1462,7 @@
 			(uuid "8063212d-a3f0-4680-a1e1-33ccae17ea7d")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/82591c7e-40c7-44fc-90aa-28c612ab8916"
 					(reference "#PWR012")
 					(unit 1)
@@ -1565,7 +1565,7 @@
 					(unit 1)
 				)
 			)
-			(project "INA219AIDCNR-breakout"
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538/82591c7e-40c7-44fc-90aa-28c612ab8916"
 					(reference "U3")
 					(unit 1)

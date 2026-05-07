@@ -4075,7 +4075,7 @@
 			(uuid "2d15e6b4-3328-45aa-9200-9e4bfacbfb93")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "TP1")
 					(unit 1)
@@ -4357,7 +4357,7 @@
 			(uuid "ce3c0f38-f3ec-4d2a-843c-b16bb8dee219")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "J2")
 					(unit 1)
@@ -4431,7 +4431,7 @@
 			(uuid "ffa16fbb-ddae-4330-b3b0-6d8c5109e0ce")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "J9")
 					(unit 1)
@@ -4497,7 +4497,7 @@
 			(uuid "f3233ce8-bb07-4357-ace1-f019c936b6ad")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "#PWR027")
 					(unit 1)
@@ -4672,7 +4672,7 @@
 			(uuid "74d421b5-b295-43d6-946f-beab6b1ea854")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "U2")
 					(unit 1)
@@ -4939,7 +4939,7 @@
 			(uuid "ce1ed0a3-da8b-4075-93f2-8da5e86e0784")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "J11")
 					(unit 1)
@@ -5342,7 +5342,7 @@
 			(uuid "08955778-ac60-4f93-8757-d4a02c5ae396")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "#PWR08")
 					(unit 1)
@@ -5548,7 +5548,7 @@
 			(uuid "7b47f35e-58ae-4ebf-bbb0-e4ce9c979830")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "J6")
 					(unit 1)
@@ -5745,7 +5745,7 @@
 			(uuid "10ed2474-8f49-4775-acbc-20167420f7b4")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "#PWR07")
 					(unit 1)
@@ -5810,7 +5810,7 @@
 			(uuid "9dc435df-b0cf-4149-b9e8-d13d8c25d4fe")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "J10")
 					(unit 1)
@@ -6012,7 +6012,7 @@
 			(uuid "df47927b-95b5-4889-8e6a-fe671bdbbc02")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "J5")
 					(unit 1)
@@ -6082,7 +6082,7 @@
 			(uuid "94f203c3-c0b2-4cc3-b466-d1174d66fe8d")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "J1")
 					(unit 1)
@@ -6353,7 +6353,7 @@
 			(uuid "b288139d-1f48-4fa3-bf2c-d284cb72c723")
 		)
 		(instances
-			(project ""
+			(project "closed-drybox"
 				(path "/99399f2a-756c-4718-9b6a-bb37855e6538"
 					(reference "#PWR028")
 					(unit 1)
