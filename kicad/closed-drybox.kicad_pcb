@@ -12566,7 +12566,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-5.0"
+		(property "Value" "AMS1117-3.3"
 			(at 0.4 4.4 0)
 			(layer "F.SilkS")
 			(uuid "02b89586-f743-495f-85a7-66c476e862ab")
@@ -12590,7 +12590,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12604,7 +12604,7 @@
 			)
 		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
-		(path "/80cc1fdd-2074-4605-8fcb-b58211358f73/da8090ea-0107-41bf-96f1-21f530071136")
+		(path "/80cc1fdd-2074-4605-8fcb-b58211358f73/1c54d648-db1f-4be0-bc80-ebe14646f869")
 		(sheetname "/Power Conversion/")
 		(sheetfile "power_conversion.kicad_sch")
 		(attr smd)
@@ -17532,6 +17532,18 @@
 		(layer "Edge.Cuts")
 		(uuid "b8590a4c-b5ad-46ff-a218-3449dab97c88")
 	)
+	(gr_text "SCL"
+		(at 196.5 57.5 0)
+		(layer "F.SilkS")
+		(uuid "8b955368-f313-41d4-b6df-fd44c773a585")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 196.5 60 0)
 		(layer "F.SilkS")
@@ -17544,46 +17556,22 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SDA"
+		(at 196.5 62.5 0)
+		(layer "F.SilkS")
+		(uuid "a6899282-9cde-4c81-aa39-1fdfc7884256")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3.3V"
-		(at 213.4 60.2 0)
+		(at 196.5 65 0)
 		(layer "F.SilkS")
-		(uuid "16169762-df39-4116-912e-c20d56628547")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "3"
-		(at 220.7 60 0)
-		(layer "F.SilkS")
-		(uuid "36495178-bea0-4069-930a-e0f84be6b06e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 213.4 57.6 0)
-		(layer "F.SilkS")
-		(uuid "3b8534ed-ed9e-4678-a166-7e93b1cbc574")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "T"
-		(at 220.7 62.5 0)
-		(layer "F.SilkS")
-		(uuid "4db02dc3-cab8-4f69-b1ae-3d75b6fcbe67")
+		(uuid "9f61bf16-bd81-4849-bf5f-a6a940efe6f7")
 		(effects
 			(font
 				(size 1 1)
@@ -17616,10 +17604,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SCL"
-		(at 196.5 57.5 0)
+	(gr_text "GND"
+		(at 213.4 57.6 0)
 		(layer "F.SilkS")
-		(uuid "8b955368-f313-41d4-b6df-fd44c773a585")
+		(uuid "3b8534ed-ed9e-4678-a166-7e93b1cbc574")
 		(effects
 			(font
 				(size 1 1)
@@ -17629,21 +17617,9 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 196.5 65 0)
+		(at 213.4 60.2 0)
 		(layer "F.SilkS")
-		(uuid "9f61bf16-bd81-4849-bf5f-a6a940efe6f7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "SDA"
-		(at 196.5 62.5 0)
-		(layer "F.SilkS")
-		(uuid "a6899282-9cde-4c81-aa39-1fdfc7884256")
+		(uuid "16169762-df39-4116-912e-c20d56628547")
 		(effects
 			(font
 				(size 1 1)
@@ -17656,6 +17632,30 @@
 		(at 220.7 57.75 0)
 		(layer "F.SilkS")
 		(uuid "e54ff310-6408-462e-9900-211667e4b35a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3"
+		(at 220.7 60 0)
+		(layer "F.SilkS")
+		(uuid "36495178-bea0-4069-930a-e0f84be6b06e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T"
+		(at 220.7 62.5 0)
+		(layer "F.SilkS")
+		(uuid "4db02dc3-cab8-4f69-b1ae-3d75b6fcbe67")
 		(effects
 			(font
 				(size 1 1)
@@ -17678,28 +17678,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"2.5\",\n    \"VSpacing\": \"2.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"2\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "2f000fcb-d25e-46f4-8bbf-378f1574621f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"2\",\n    \"VSpacing\": \"2\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "3e6934ca-7453-4a48-8d56-e838af809bce")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
 	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"0.5\",\n    \"VSpacing\": \"0.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0.2\",\n    \"Randomize\": false\n  }\n}"
 		(at 0 0 0)
 		(layer "User.9")
@@ -17711,10 +17689,32 @@
 			(justify left top)
 		)
 	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"2.5\",\n    \"VSpacing\": \"2.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"2\",\n    \"Randomize\": false\n  }\n}"
+	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"1\",\n    \"VSpacing\": \"1\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0\",\n    \"Randomize\": false\n  }\n}"
 		(at 0 0 0)
 		(layer "User.9")
-		(uuid "a61543b4-be33-4fe2-a213-482896248b98")
+		(uuid "c165b1e7-e13e-4525-8e0d-94f4620b203c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"1\",\n    \"VSpacing\": \"1\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0.3\",\n    \"Randomize\": false\n  }\n}"
+		(at 0 0 0)
+		(layer "User.9")
+		(uuid "e00865c6-c940-4fcc-ab52-f067d864cfd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"2\",\n    \"VSpacing\": \"2\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0\",\n    \"Randomize\": false\n  }\n}"
+		(at 0 0 0)
+		(layer "User.9")
+		(uuid "3e6934ca-7453-4a48-8d56-e838af809bce")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17736,18 +17736,7 @@
 	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"2.5\",\n    \"VSpacing\": \"2.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"2\",\n    \"Randomize\": false\n  }\n}"
 		(at 0 0 0)
 		(layer "User.9")
-		(uuid "b1bbb94d-6138-4a6e-bfc9-6b5e27735867")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"2.5\",\n    \"VSpacing\": \"2.5\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"2\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "b62e7a57-b17e-457f-91ba-4ead15a19c2c")
+		(uuid "2f000fcb-d25e-46f4-8bbf-378f1574621f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17759,50 +17748,6 @@
 		(at 0 0 0)
 		(layer "User.9")
 		(uuid "be457bde-3f2a-45fc-a892-8df4627c21cb")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"3\",\n    \"VSpacing\": \"3\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"2\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "be6a359a-f23b-4767-b241-175d9fe3f9ed")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"1\",\n    \"VSpacing\": \"1\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "c165b1e7-e13e-4525-8e0d-94f4620b203c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"1\",\n    \"VSpacing\": \"1\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "ce6da917-1ef3-42b9-9b37-c6ce515ae819")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"GND\": {\n    \"HSpacing\": \"1\",\n    \"VSpacing\": \"1\",\n    \"HOffset\": \"0\",\n    \"VOffset\": \"0\",\n    \"Clearance\": \"0.3\",\n    \"Randomize\": false\n  }\n}"
-		(at 0 0 0)
-		(layer "User.9")
-		(uuid "e00865c6-c940-4fcc-ab52-f067d864cfd9")
 		(effects
 			(font
 				(size 1.27 1.27)
